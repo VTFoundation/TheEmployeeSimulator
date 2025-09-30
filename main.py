@@ -15,7 +15,7 @@ from modules.startup_check import run_startup_check as full_check
 # --- ASCII Banner ---
 def print_banner():
     """Prints a ASCII banner for the User Simulator."""
-    ascii_banner = pyfiglet.figlet_format("The Employee \nSimulator v1.2")
+    ascii_banner = pyfiglet.figlet_format("VTF Employee \nSimulator v1.2")
     print(ascii_banner)
     print("By - @mello-io")
     print("-" * 30 + "\n")
@@ -82,3 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
